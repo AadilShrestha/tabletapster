@@ -313,7 +313,7 @@ const Foods = () => {
                     <SelectValue placeholder="Filter by category" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">All Categories</SelectItem>
+                 
                     {mockCategories.map((category) => (
                       <SelectItem key={category.id} value={category.id}>
                         {category.name}
